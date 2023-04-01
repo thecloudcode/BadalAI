@@ -8,16 +8,19 @@
 }
 
 body{
-  background-image: url('wallpaper.jpg');
+  background-image: url('logo.jpg');
    /* background-image: url('https://drive.google.com/file/d/10jn8heSae_LTb-3ULPEWN-fUE03kuEQW/view?usp=sharing'); */
    /* opacity: 0.5; */
+  /* height:200px; */
   background-repeat: no-repeat;
+  background-position: center;
   justify-content: center;
   align-items: center;
   /* display:flex; */
   /* min-height: 100vh;
   background: #252839; */
 }
+
 
 #app {
   width: 100vw;
@@ -33,11 +36,12 @@ body{
 .container{
   /* text-align: center; */
   /* align-items: center; */
-  height: 170vh;
+  height: 100vh;
   width: 100%;
-  background: linear-gradient(45deg,rgba(3, 147, 154, 0.9),rgba(57, 2, 130, 0.9));
+  /* background: linear-gradient(45deg,rgba(3, 147, 154, 0.9),rgba(57, 2, 130, 0.9)); */
+  background: linear-gradient(45deg,rgba(81, 2, 130, 0.9),rgba(3, 73, 154, 0.9),rgba(3, 147, 154, 0.9));
   background-size: 300% 300%;
-  animation: color 5s ease-in-out infinite;
+  animation: color 3s ease-in-out infinite;
 }
 
 @keyframes color{
@@ -147,13 +151,13 @@ body{
 }
 
 form {
-  width: 100%;
+  width: 89.77%;
   max-width: 1380px;
   margin: 0 auto;
   padding: 10px;
-  padding-left: 40px;
+  /* padding-left: 40px; */
   background: rgba(0, 1, 1, 0.7);
-
+  box-shadow: 7px 7px 10px rgba(0,0,0,0.5);
   display: flex;
   flex-direction: row;
   gap: 10px;
@@ -191,6 +195,7 @@ form img {
   background: linear-gradient(90deg, aqua, rgb(136, 0, 255),rgb(0, 53, 67),rgb(136, 0, 255),aqua);
   background-size: 400%;
   height: 3px;
+  margin-bottom: 30px;
   width: 89.77%;
   animation: logoanimation 7s linear infinite;
 }
