@@ -12,6 +12,7 @@ body{
    /* background-image: url('https://drive.google.com/file/d/10jn8heSae_LTb-3ULPEWN-fUE03kuEQW/view?usp=sharing'); */
    /* opacity: 0.5; */
   /* height:200px; */
+  /* height: ; */
   background-repeat: no-repeat;
   background-position: center;
   justify-content: center;
@@ -195,7 +196,7 @@ form img {
   background: linear-gradient(90deg, aqua, rgb(136, 0, 255),rgb(0, 53, 67),rgb(136, 0, 255),aqua);
   background-size: 400%;
   height: 3px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   width: 89.77%;
   animation: logoanimation 7s linear infinite;
 }
