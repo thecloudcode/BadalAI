@@ -59,10 +59,10 @@ body{
 
 #chat_container {
   flex: 1;
-  width: 100%;
+  width: 89.77%;
   height: 100%;
-  padding-left: 78px;
-  padding-right: 78px;
+  /* padding-left: 78px; */
+  /* padding-right: 78px; */
   overflow-y: scroll;
 
   display: flex;
